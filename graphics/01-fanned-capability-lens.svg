@@ -1,0 +1,526 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11151F"/>
+      <stop offset="100%" stop-color="#181F30"/>
+    </linearGradient>
+    <linearGradient id="anthGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CC8164"/>
+      <stop offset="100%" stop-color="#EBB9A2"/>
+    </linearGradient>
+    <linearGradient id="oaiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5FA890"/>
+      <stop offset="100%" stop-color="#A3D9C6"/>
+    </linearGradient>
+    <linearGradient id="googGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6695D9"/>
+      <stop offset="100%" stop-color="#9BC2F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <g transform="translate(56, 40)">
+    <rect x="0" y="0" width="246" height="25" rx="12.5" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="123" y="16.5" text-anchor="middle" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11" font-weight="600" letter-spacing="1">PLATE 01 · FOCAL-LENS MATRIX</text>
+    <text x="0" y="58" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="700" letter-spacing="-0.5">Calibrated Capability Lens — Per-Cell Effort, Evidence &amp; True Crowns</text>
+    <text x="0" y="83" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14">80% spread across your 7 active workflow axes (strictly one crown/row); bars shown ONLY on measured metrics</text>
+
+    <!-- Evidence Legend Top-Right -->
+    <g transform="translate(1058, 8)">
+      <rect x="0" y="0" width="430" height="44" rx="10" fill="#171C29" stroke="#2A3347" stroke-width="1"/>
+      <rect x="14" y="12" width="66" height="20" rx="5" fill="#064E3B"/>
+      <text x="47" y="26" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">LOGGED</text>
+      <text x="88" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">Real project</text>
+      <rect x="166" y="12" width="58" height="20" rx="5" fill="#1E3A5F"/>
+      <text x="195" y="26" text-anchor="middle" fill="#7DD3FC" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">BENCH</text>
+      <text x="232" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">AA / Card only</text>
+      <rect x="322" y="12" width="76" height="20" rx="5" fill="#1E293B"/>
+      <text x="360" y="26" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">UNTESTED</text>
+    </g>
+  </g>
+
+  <line x1="56" y1="142" x2="1544" y2="142" stroke="#2A3347" stroke-width="1"/>
+
+  <rect x="56" y="156" width="1488" height="462" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
+<rect x="56" y="156" width="6" height="462" rx="3" fill="#E29B7D"/>
+<text x="76" y="182" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700">FANNED WORKFLOW CORE (7 AXES · ONE CROWN PER ROW)</text>
+<text x="76" y="200" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.2">Bright bar = Measured / Confirmed · Dim bar = Qualitative estimate</text>
+<g transform="translate(383, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#E29B7D" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Opus 5.5</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">Anthropic</text>
+</g>
+<g transform="translate(549, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#CC8164" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Fable 5.2</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#CC8164" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">Anthropic</text>
+</g>
+<g transform="translate(715, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#EBB9A2" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Sonnet 5.5</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#EBB9A2" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">Anthropic</text>
+</g>
+<g transform="translate(881, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#72C2A8" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Astra 6.2</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">OpenAI</text>
+</g>
+<g transform="translate(1047, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#A3D9C6" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Sol 6.2</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">OpenAI</text>
+</g>
+<g transform="translate(1213, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#8EB8F0" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Neon</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">Google</text>
+</g>
+<g transform="translate(1379, 164)">
+<rect width="156" height="42" rx="8" fill="#0B0F19" stroke="#6695D9" stroke-opacity="0.65" stroke-width="1.3"/>
+<text x="78.0" y="19" text-anchor="middle" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Carbon</text>
+<text x="78.0" y="35" text-anchor="middle" fill="#6695D9" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.2">New $20 Pro</text>
+</g>
+<text x="76" y="236" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">1. Project Lead</text>
+<text x="76" y="254" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Holds 30+ step intent, delegates cleanly, stays on track</text>
+<rect x="384" y="220" width="154" height="46" rx="7" fill="#17253B" stroke="#E29B7D" stroke-width="1.8"/>
+<text x="392" y="234" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="484" y="224" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="234" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="241" width="135.2" height="6" rx="3" fill="#E29B7D" fill-opacity="1.0"/>
+<text x="392" y="260" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · 1797 Elo</text>
+<rect x="550" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="650" y="224" width="48" height="14" rx="4" fill="#193830"/>
+<text x="674.0" y="234" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="558" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="241" width="128.3" height="6" rx="3" fill="#CC8164" fill-opacity="0.88"/>
+<text x="558" y="260" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">#2 lead · 1785 Elo</text>
+<rect x="716" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="816" y="224" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="234" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="241" width="99.4" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="260" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Sub-lead / installs</text>
+<rect x="882" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="982" y="224" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1006.0" y="234" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="890" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="241" width="88.3" height="6" rx="3" fill="#72C2A8" fill-opacity="0.88"/>
+<text x="890" y="260" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1643 Elo · terse</text>
+<rect x="1048" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1056" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="1148" y="224" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1172.0" y="234" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1056" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="241" width="82.8" height="6" rx="3" fill="#A3D9C6" fill-opacity="0.30"/>
+<text x="1056" y="260" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Scoped work only</text>
+<rect x="1214" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1314" y="224" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1338.0" y="234" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1222" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="241" width="113.2" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.88"/>
+<text x="1222" y="260" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1699 Elo · strong</text>
+<rect x="1380" y="220" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="234" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1480" y="224" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1504.0" y="234" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1388" y="241" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="241" width="77.3" height="6" rx="3" fill="#6695D9" fill-opacity="0.88"/>
+<text x="1388" y="260" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1611 Elo</text>
+<line x1="72" y1="271" x2="1528" y2="271" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="292" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">2. Proficient Coder</text>
+<text x="76" y="310" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Native T-Bench 4.1 (tbench.ai) + BOBA 20-step</text>
+<rect x="384" y="276" width="154" height="46" rx="7" fill="#17253B" stroke="#E29B7D" stroke-width="1.8"/>
+<text x="392" y="290" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">hi/max</text>
+<rect x="484" y="280" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="290" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="297" width="135.2" height="6" rx="3" fill="#E29B7D" fill-opacity="1.0"/>
+<text x="392" y="316" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · 65.8% · BOBA #1</text>
+<rect x="550" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="650" y="280" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="674.0" y="290" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="558" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="297" width="135.2" height="6" rx="3" fill="#CC8164" fill-opacity="0.88"/>
+<text x="558" y="316" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">65.8% T4.1 (tie) · $14.83</text>
+<rect x="716" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="816" y="280" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="290" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="297" width="113.2" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="316" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Patches / server</text>
+<rect x="882" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">max</text>
+<rect x="982" y="280" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1006.0" y="290" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="890" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="297" width="107.6" height="6" rx="3" fill="#72C2A8" fill-opacity="0.88"/>
+<text x="890" y="316" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">62.1% T4.1</text>
+<rect x="1048" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1056" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1148" y="280" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1172.0" y="290" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1056" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="297" width="110.4" height="6" rx="3" fill="#A3D9C6" fill-opacity="0.88"/>
+<text x="1056" y="316" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">61.5% T4.1 · fallback</text>
+<rect x="1214" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1314" y="280" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1338.0" y="290" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1222" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="297" width="118.7" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.88"/>
+<text x="1222" y="316" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">44.4% FC · 61.2% T4.1</text>
+<rect x="1380" y="276" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="290" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1480" y="280" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1504.0" y="290" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1388" y="297" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="297" width="113.2" height="6" rx="3" fill="#6695D9" fill-opacity="0.88"/>
+<text x="1388" y="316" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">64.5% T4.1 · 40.6% FC</text>
+<line x1="72" y1="327" x2="1528" y2="327" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="348" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">3. General Security</text>
+<text x="76" y="366" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Writes safe code, resists hijacking, finds &amp; fixes flaws</text>
+<rect x="384" y="332" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="392" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="484" y="336" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="346" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="353" width="127.0" height="6" rx="3" fill="#E29B7D" fill-opacity="0.88"/>
+<text x="392" y="372" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">#2 · 74.2% GN / triage</text>
+<rect x="550" y="332" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="650" y="336" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="674.0" y="346" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="558" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="353" width="115.9" height="6" rx="3" fill="#CC8164" fill-opacity="0.88"/>
+<text x="558" y="372" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">75% CWE-v2 · fallback*</text>
+<rect x="716" y="332" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="816" y="336" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="346" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="353" width="88.3" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="372" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Std Opus reviewer</text>
+<rect x="882" y="332" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="982" y="336" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1006.0" y="346" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="890" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="353" width="107.6" height="6" rx="3" fill="#72C2A8" fill-opacity="0.30"/>
+<text x="890" y="372" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Backup precision</text>
+<rect x="1048" y="332" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1056" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1148" y="336" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1172.0" y="346" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1056" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="353" width="96.6" height="6" rx="3" fill="#A3D9C6" fill-opacity="0.88"/>
+<text x="1056" y="372" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">66.0% CWE-v2</text>
+<rect x="1214" y="332" width="154" height="46" rx="7" fill="#17253B" stroke="#8EB8F0" stroke-width="1.8"/>
+<text x="1222" y="346" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1314" y="336" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1338.0" y="346" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1222" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="353" width="131.1" height="6" rx="3" fill="#8EB8F0" fill-opacity="1.0"/>
+<text x="1222" y="372" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · Q68 (t-#2)/sev</text>
+<rect x="1380" y="332" width="154" height="46" rx="7" fill="#17253B" stroke="#6695D9" stroke-width="1.4"/>
+<text x="1388" y="346" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1480" y="336" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1504.0" y="346" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1388" y="353" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="353" width="118.7" height="6" rx="3" fill="#6695D9" fill-opacity="0.88"/>
+<text x="1388" y="372" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">79.3% AA-LCR · Q64</text>
+<line x1="72" y1="383" x2="1528" y2="383" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="404" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">4. From-Scratch 3D Assets</text>
+<text x="76" y="422" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Builds clean 3D models from zero — no image-to-mesh</text>
+<rect x="384" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="392" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">max</text>
+<rect x="484" y="392" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="508.0" y="402" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="392" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="409" width="60.7" height="6" rx="3" fill="#E29B7D" fill-opacity="0.88"/>
+<text x="392" y="428" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1202 AA-3D</text>
+<rect x="550" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">max</text>
+<rect x="650" y="392" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="674.0" y="402" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="558" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="409" width="106.3" height="6" rx="3" fill="#CC8164" fill-opacity="0.88"/>
+<text x="558" y="428" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1271 AA-3D (bench)</text>
+<rect x="716" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="806" y="392" width="58" height="14" rx="4" fill="#1E293B"/>
+<text x="835.0" y="402" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">UNTESTED</text>
+<rect x="724" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="409" width="49.7" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="428" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Untested on 3D</text>
+<rect x="882" y="388" width="154" height="46" rx="7" fill="#17253B" stroke="#72C2A8" stroke-width="1.8"/>
+<text x="890" y="402" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="982" y="392" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1006.0" y="402" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="890" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="409" width="138.0" height="6" rx="3" fill="#72C2A8" fill-opacity="1.0"/>
+<text x="890" y="428" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · max 1318</text>
+<rect x="1048" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1056" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1148" y="392" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1172.0" y="402" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1056" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="409" width="124.2" height="6" rx="3" fill="#A3D9C6" fill-opacity="0.88"/>
+<text x="1056" y="428" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">#2 hero · 1259 max</text>
+<rect x="1214" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1314" y="392" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1338.0" y="402" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1222" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="409" width="91.1" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.88"/>
+<text x="1222" y="428" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1246 (#4) QA</text>
+<rect x="1380" y="388" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="402" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1480" y="392" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1504.0" y="402" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1388" y="409" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="409" width="58.0" height="6" rx="3" fill="#6695D9" fill-opacity="0.88"/>
+<text x="1388" y="428" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">1200 AA-3D</text>
+<line x1="72" y1="439" x2="1528" y2="439" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="460" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">5. 3D Textures, Rigging &amp; Fixes</text>
+<text x="76" y="478" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Iterates on meshes, textures, Blender fixes &amp; anim</text>
+<rect x="384" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="392" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="484" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="465" width="115.9" height="6" rx="3" fill="#E29B7D" fill-opacity="0.30"/>
+<text x="392" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Strong geo/anim</text>
+<rect x="550" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="650" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="674.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="558" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="465" width="74.5" height="6" rx="3" fill="#CC8164" fill-opacity="0.30"/>
+<text x="558" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Cost overkill</text>
+<rect x="716" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="816" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="465" width="113.2" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Tied anim · trial</text>
+<rect x="882" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="982" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1006.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="890" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="465" width="93.8" height="6" rx="3" fill="#72C2A8" fill-opacity="0.30"/>
+<text x="890" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">High unneeded</text>
+<rect x="1048" y="444" width="154" height="46" rx="7" fill="#17253B" stroke="#A3D9C6" stroke-width="1.8"/>
+<text x="1056" y="458" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">hi/med</text>
+<rect x="1148" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1172.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1056" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="465" width="131.1" height="6" rx="3" fill="#A3D9C6" fill-opacity="1.0"/>
+<text x="1056" y="484" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · hi geo/med tx</text>
+<rect x="1214" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1314" y="448" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1338.0" y="458" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1222" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="465" width="104.9" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.30"/>
+<text x="1222" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">3D visual QA</text>
+<rect x="1380" y="444" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="458" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1470" y="448" width="58" height="14" rx="4" fill="#1E293B"/>
+<text x="1499.0" y="458" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">UNTESTED</text>
+<rect x="1388" y="465" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="465" width="52.4" height="6" rx="3" fill="#6695D9" fill-opacity="0.30"/>
+<text x="1388" y="484" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Untested on 3D</text>
+<line x1="72" y1="495" x2="1528" y2="495" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="516" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">6. Creative &amp; World Design</text>
+<text x="76" y="534" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Designs cohesive worlds, player feel &amp; systems</text>
+<rect x="384" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="392" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="484" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="521" width="118.7" height="6" rx="3" fill="#E29B7D" fill-opacity="0.30"/>
+<text x="392" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Daily place keeper</text>
+<rect x="550" y="500" width="154" height="46" rx="7" fill="#17253B" stroke="#CC8164" stroke-width="1.8"/>
+<text x="558" y="514" fill="#CC8164" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">hi/max</text>
+<rect x="650" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="674.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="558" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="521" width="135.2" height="6" rx="3" fill="#CC8164" fill-opacity="1.0"/>
+<text x="558" y="540" fill="#CC8164" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · max feel</text>
+<rect x="716" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="816" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="521" width="74.5" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.30"/>
+<text x="724" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Flat ground only</text>
+<rect x="882" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="982" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1006.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="890" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="521" width="88.3" height="6" rx="3" fill="#72C2A8" fill-opacity="0.30"/>
+<text x="890" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Literalist method</text>
+<rect x="1048" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1056" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1148" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1172.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1056" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="521" width="91.1" height="6" rx="3" fill="#A3D9C6" fill-opacity="0.30"/>
+<text x="1056" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Continent build</text>
+<rect x="1214" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="1304" y="504" width="58" height="14" rx="4" fill="#1E293B"/>
+<text x="1333.0" y="514" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">UNTESTED</text>
+<rect x="1222" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="521" width="77.3" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.30"/>
+<text x="1222" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Analytical tone</text>
+<rect x="1380" y="500" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="514" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">low</text>
+<rect x="1480" y="504" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1504.0" y="514" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1388" y="521" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="521" width="99.4" height="6" rx="3" fill="#6695D9" fill-opacity="0.30"/>
+<text x="1388" y="540" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Corpus advice</text>
+<line x1="72" y1="551" x2="1528" y2="551" stroke="#222B3E" stroke-width="1"/>
+<text x="76" y="572" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">7. Output per Dollar</text>
+<text x="76" y="590" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Finished work per dollar spent — not just token rates</text>
+<rect x="384" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="392" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">high</text>
+<rect x="484" y="560" width="48" height="14" rx="4" fill="#193830"/>
+<text x="508.0" y="570" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="392" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="392" y="577" width="74.5" height="6" rx="3" fill="#E29B7D" fill-opacity="0.88"/>
+<text x="392" y="596" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">$4/$20 steady</text>
+<rect x="550" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="558" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="650" y="560" width="48" height="14" rx="4" fill="#193830"/>
+<text x="674.0" y="570" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="558" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="558" y="577" width="66.2" height="6" rx="3" fill="#CC8164" fill-opacity="0.88"/>
+<text x="558" y="596" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">$3.80 · best knee</text>
+<rect x="716" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="724" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">med</text>
+<rect x="816" y="560" width="48" height="14" rx="4" fill="#193830"/>
+<text x="840.0" y="570" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="724" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="724" y="577" width="107.6" height="6" rx="3" fill="#EBB9A2" fill-opacity="0.88"/>
+<text x="724" y="596" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">#2 · $0.78 (hi $1.64)</text>
+<rect x="882" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="890" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="982" y="560" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1006.0" y="570" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="890" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="890" y="577" width="93.8" height="6" rx="3" fill="#72C2A8" fill-opacity="0.88"/>
+<text x="890" y="596" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">$2.52 · Index 62</text>
+<rect x="1048" y="556" width="154" height="46" rx="7" fill="#17253B" stroke="#A3D9C6" stroke-width="1.8"/>
+<text x="1056" y="570" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1148" y="560" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1172.0" y="570" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1056" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1056" y="577" width="136.6" height="6" rx="3" fill="#A3D9C6" fill-opacity="1.0"/>
+<text x="1056" y="596" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="700">CROWN · $0.65 (Idx 56)</text>
+<rect x="1214" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1222" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">xhigh</text>
+<rect x="1314" y="560" width="48" height="14" rx="4" fill="#1D2F47"/>
+<text x="1338.0" y="570" text-anchor="middle" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">BENCH</text>
+<rect x="1222" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1222" y="577" width="80.0" height="6" rx="3" fill="#8EB8F0" fill-opacity="0.88"/>
+<text x="1222" y="596" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="600">$6.44 · 110 t/s</text>
+<rect x="1380" y="556" width="154" height="46" rx="7" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1388" y="570" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10" font-weight="700">low</text>
+<rect x="1480" y="560" width="48" height="14" rx="4" fill="#193830"/>
+<text x="1504.0" y="570" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="8.8" font-weight="700">LOGGED</text>
+<rect x="1388" y="577" width="138" height="6" rx="3" fill="#1E293B"/>
+<rect x="1388" y="577" width="96.6" height="6" rx="3" fill="#6695D9" fill-opacity="0.30"/>
+<text x="1388" y="596" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4" font-weight="500">Saves Fable/Astra</text>
+<rect x="56" y="634" width="1488" height="196" rx="14" fill="#131824" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="6 4"/>
+<rect x="56" y="634" width="6" height="196" rx="3" fill="#475569"/>
+<text x="76" y="659" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700" letter-spacing="0.8">TRUNCATED PERIPHERAL BUCKETS (NON-CORE GENERALIST CAPABILITIES COMPRESSED)</text>
+<text x="76" y="689" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="600">General Knowledge &amp; Advice</text>
+<text x="76" y="705" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">Closed-book recall &amp; low-effort Q&amp;A (Carbon low effort = Gemini’s Fable)</text>
+<rect x="384" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="394" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥉 ~66%</text>
+<text x="530" y="697" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="550" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="560" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥇 79% (low eff)</text>
+<text x="696" y="697" text-anchor="end" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">LOGGED</text>
+<rect x="716" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="726" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Mid</text>
+<text x="862" y="697" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="882" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="892" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥈 69%</text>
+<text x="1028" y="697" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1048" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1058" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">62%</text>
+<text x="1194" y="697" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1214" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1224" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">55 idx</text>
+<text x="1360" y="697" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1380" y="678" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1390" y="697" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">AA 54 (low eff)</text>
+<text x="1526" y="697" text-anchor="end" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">LOGGED</text>
+<line x1="72" y1="719" x2="1528" y2="719" stroke="#172033" stroke-width="1"/>
+<text x="76" y="738" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="600">Files, Desktop &amp; Bulk Tasks</text>
+<text x="76" y="754" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">OS automation, file ops &amp; large batch gathering</text>
+<rect x="384" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="394" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥇 87% OSW</text>
+<text x="530" y="746" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="550" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="560" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">76% Auto</text>
+<text x="696" y="746" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="716" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="726" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Chores</text>
+<text x="862" y="746" text-anchor="end" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">LOGGED</text>
+<rect x="882" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="892" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">No 6.2 OSW</text>
+<text x="1028" y="746" text-anchor="end" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">UNTESTED</text>
+<rect x="1048" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1058" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥈 Gathers</text>
+<text x="1194" y="746" text-anchor="end" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">LOGGED</text>
+<rect x="1214" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1224" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥉 79% Auto</text>
+<text x="1360" y="746" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1380" y="727" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1390" y="746" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">78% Auto</text>
+<text x="1526" y="746" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<line x1="72" y1="768" x2="1528" y2="768" stroke="#172033" stroke-width="1"/>
+<text x="76" y="787" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="600">Science, Health, &amp; Math</text>
+<text x="76" y="803" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">PhD science (GPQA), research physics (CritPt) &amp; proofs</text>
+<rect x="384" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="394" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">94% GPQA</text>
+<text x="530" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="550" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="560" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥇 76.5% Crit</text>
+<text x="696" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="716" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="726" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Std</text>
+<text x="862" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="882" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="892" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥈 97% GPQA</text>
+<text x="1028" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1048" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1058" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">100% FM</text>
+<text x="1194" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1214" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1224" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">60.5% Crit</text>
+<text x="1360" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+<rect x="1380" y="776" width="154" height="30" rx="6" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+<text x="1390" y="795" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">🥉 69% Crit</text>
+<text x="1526" y="795" text-anchor="end" fill="#9BC8E8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="9" font-weight="700">BENCH</text>
+
+  <!-- Footer -->
+  <line x1="56" y1="848" x2="1544" y2="848" stroke="#2A3347" stroke-width="1"/>
+  <text x="56" y="875" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Calibrated against Models.md + Nov 24 $20 Pro Carbon unlock. Neon’s Row 3 crown explicitly requires Claude severity triage; Fable coding is benchmark-only.</text>
+  <text x="1544" y="875" text-anchor="end" fill="#64748B" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5">CALIBRATED FRONTIER ATLAS · NOV 2026</text>
+</svg>

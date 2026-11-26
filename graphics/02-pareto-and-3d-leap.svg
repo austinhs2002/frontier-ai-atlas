@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11151F"/>
+      <stop offset="100%" stop-color="#181F30"/>
+    </linearGradient>
+    <linearGradient id="anthGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CC8164"/>
+      <stop offset="100%" stop-color="#EBB9A2"/>
+    </linearGradient>
+    <linearGradient id="oaiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5FA890"/>
+      <stop offset="100%" stop-color="#A3D9C6"/>
+    </linearGradient>
+    <linearGradient id="googGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6695D9"/>
+      <stop offset="100%" stop-color="#9BC2F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <g transform="translate(56, 40)">
+    <rect x="0" y="0" width="246" height="25" rx="12.5" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="123" y="16.5" text-anchor="middle" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11" font-weight="600" letter-spacing="1">PLATE 02 · ECONOMICS &amp; 3D LEAP</text>
+    <text x="0" y="58" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="700" letter-spacing="-0.5">Unit Economics &amp; The Spatial 3D Phase Transition</text>
+    <text x="0" y="83" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Measured AA API costs (solid) vs. effort estimates (hollow rings)—paired with the 6.0 → 6.2 spatial 3D jump</text>
+
+    <!-- Evidence Legend Top-Right -->
+    <g transform="translate(1058, 8)">
+      <rect x="0" y="0" width="430" height="44" rx="10" fill="#171C29" stroke="#2A3347" stroke-width="1"/>
+      <rect x="14" y="12" width="66" height="20" rx="5" fill="#064E3B"/>
+      <text x="47" y="26" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">LOGGED</text>
+      <text x="88" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">Real project</text>
+      <rect x="166" y="12" width="58" height="20" rx="5" fill="#1E3A5F"/>
+      <text x="195" y="26" text-anchor="middle" fill="#7DD3FC" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">BENCH</text>
+      <text x="232" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">AA / Card only</text>
+      <rect x="322" y="12" width="76" height="20" rx="5" fill="#1E293B"/>
+      <text x="360" y="26" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">UNTESTED</text>
+    </g>
+  </g>
+
+  <line x1="56" y1="142" x2="1544" y2="142" stroke="#2A3347" stroke-width="1"/>
+
+  <rect x="56" y="166" width="884" height="682" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
+<text x="80" y="194" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700">A. True Per-Task Economics (AA Index v5 vs. USD / Task)</text>
+<circle cx="668" cy="189" r="5.5" fill="#EEF1F6"/>
+<text x="679" y="193" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Measured AA</text>
+<circle cx="778" cy="189" r="5.5" fill="#0B0F19" stroke="#EEF1F6" stroke-width="2" stroke-dasharray="2 1"/>
+<text x="789" y="193" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Est. Effort Tier</text>
+<rect x="96" y="212" width="820" height="574" rx="8" fill="#0B0F19" stroke="#222B3E"/>
+<line x1="229.8" y1="212" x2="229.8" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="229.8" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$1</text>
+<line x1="363.6" y1="212" x2="363.6" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="363.6" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$2</text>
+<line x1="441.8" y1="212" x2="441.8" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="441.8" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$3</text>
+<line x1="540.4" y1="212" x2="540.4" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="540.4" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$5</text>
+<line x1="674.2" y1="212" x2="674.2" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="674.2" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$10</text>
+<line x1="851.1" y1="212" x2="851.1" y2="786" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="851.1" y="808" text-anchor="middle" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">$25</text>
+<text x="506.0" y="830" text-anchor="middle" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="600">Weighted API Cost per Completed Task (Log USD — Sol $1.01 vs Sonnet med &lt;$1)</text>
+<line x1="96" y1="743.5" x2="916" y2="743.5" stroke="#222B3E"/>
+<text x="86" y="747.5" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">54</text>
+<line x1="96" y1="658.4" x2="916" y2="658.4" stroke="#222B3E"/>
+<text x="86" y="662.4" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">56</text>
+<line x1="96" y1="573.4" x2="916" y2="573.4" stroke="#222B3E"/>
+<text x="86" y="577.4" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">58</text>
+<line x1="96" y1="488.4" x2="916" y2="488.4" stroke="#222B3E"/>
+<text x="86" y="492.4" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">60</text>
+<line x1="96" y1="403.3" x2="916" y2="403.3" stroke="#222B3E"/>
+<text x="86" y="407.3" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">62</text>
+<line x1="96" y1="318.3" x2="916" y2="318.3" stroke="#222B3E"/>
+<text x="86" y="322.3" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">64</text>
+<line x1="96" y1="233.3" x2="916" y2="233.3" stroke="#222B3E"/>
+<text x="86" y="237.3" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">66</text>
+<polyline points="117.9,701.0 146.6,658.4 231.7,615.9 408.2,403.3 655.6,339.6 862.6,275.8" fill="none" stroke="#475569" stroke-width="2.2" stroke-dasharray="7 5"/>
+<circle cx="146.6" cy="658.4" r="15.0" fill="#A3D9C6" fill-opacity="0.14"/>
+<circle cx="146.6" cy="658.4" r="11.0" fill="#A3D9C6" stroke="#0B0F19" stroke-width="2"/>
+<text x="162.6" y="670.4" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Sol 6.2 (xhigh)</text>
+<text x="162.6" y="684.4" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$0.65 · Index 56 (ROI Crown)</text>
+<circle cx="231.7" cy="615.9" r="13.5" fill="#A3D9C6" fill-opacity="0.14"/>
+<circle cx="231.7" cy="615.9" r="9.5" fill="#A3D9C6" stroke="#0B0F19" stroke-width="2"/>
+<text x="247.7" y="609.9" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Sol 6.2 (max)</text>
+<text x="247.7" y="623.9" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$1.01 · Index 57 · ECI 169</text>
+<circle cx="408.2" cy="403.3" r="15.0" fill="#72C2A8" fill-opacity="0.14"/>
+<circle cx="408.2" cy="403.3" r="11.0" fill="#72C2A8" stroke="#0B0F19" stroke-width="2"/>
+<text x="424.2" y="395.3" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Astra 6.2 (xhigh)</text>
+<text x="424.2" y="409.3" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$2.52 · Index 62 Peak</text>
+<line x1="492.5" y1="488.4" x2="480.5" y2="472.4" stroke="#8EB8F0" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="492.5" cy="488.4" r="13.0" fill="#8EB8F0" fill-opacity="0.14"/>
+<circle cx="492.5" cy="488.4" r="9.0" fill="#0B0F19" stroke="#8EB8F0" stroke-width="2.6" stroke-dasharray="3 2"/>
+<text x="474.5" y="474.4" text-anchor="end" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Neon (high)</text>
+<text x="474.5" y="488.4" text-anchor="end" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">~$3.90 (est.) · 110 tok/s</text>
+<line x1="487.5" y1="424.6" x2="497.5" y2="398.6" stroke="#CC8164" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="487.5" cy="424.6" r="13.5" fill="#CC8164" fill-opacity="0.14"/>
+<circle cx="487.5" cy="424.6" r="9.5" fill="#0B0F19" stroke="#CC8164" stroke-width="2.6" stroke-dasharray="3 2"/>
+<text x="503.5" y="400.6" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Fable 5.2 (med)</text>
+<text x="503.5" y="414.6" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$3.80 · Best Fable Knee</text>
+<line x1="524.3" y1="573.4" x2="512.3" y2="589.4" stroke="#6695D9" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="524.3" cy="573.4" r="12.5" fill="#6695D9" fill-opacity="0.14"/>
+<circle cx="524.3" cy="573.4" r="8.5" fill="#0B0F19" stroke="#6695D9" stroke-width="2.6" stroke-dasharray="3 2"/>
+<text x="506.3" y="591.4" text-anchor="end" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Carbon (med)</text>
+<text x="506.3" y="605.4" text-anchor="end" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">~$4.60 (est.) · Index 58</text>
+<line x1="589.3" y1="445.9" x2="577.3" y2="411.9" stroke="#8EB8F0" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="589.3" cy="445.9" r="14.5" fill="#8EB8F0" fill-opacity="0.14"/>
+<circle cx="589.3" cy="445.9" r="10.5" fill="#8EB8F0" stroke="#0B0F19" stroke-width="2"/>
+<text x="571.3" y="413.9" text-anchor="end" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Neon (xhigh)</text>
+<text x="571.3" y="427.9" text-anchor="end" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$6.44 · Index 61 · #1 Agent</text>
+<line x1="599.8" y1="530.9" x2="587.8" y2="564.9" stroke="#E29B7D" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="599.8" cy="530.9" r="15.0" fill="#E29B7D" fill-opacity="0.14"/>
+<circle cx="599.8" cy="530.9" r="11.0" fill="#0B0F19" stroke="#E29B7D" stroke-width="2.6" stroke-dasharray="3 2"/>
+<text x="581.8" y="566.9" text-anchor="end" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Opus 5.5 (hi/max)</text>
+<text x="581.8" y="580.9" text-anchor="end" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">~$6.80 (est.) · #1 Lead</text>
+<line x1="625.3" y1="488.4" x2="643.3" y2="502.4" stroke="#6695D9" stroke-opacity="0.55" stroke-width="1.3"/>
+<circle cx="625.3" cy="488.4" r="14.0" fill="#6695D9" fill-opacity="0.14"/>
+<circle cx="625.3" cy="488.4" r="10.0" fill="#6695D9" stroke="#0B0F19" stroke-width="2"/>
+<text x="649.3" y="504.4" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Carbon (high)</text>
+<text x="649.3" y="518.4" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$7.76 · CritPt 69% · ECI 170</text>
+<circle cx="674.6" cy="701.0" r="12.5" fill="#EF4444" fill-opacity="0.14"/>
+<circle cx="674.6" cy="701.0" r="8.5" fill="#EF4444" stroke="#0B0F19" stroke-width="2"/>
+<text x="689.6" y="705.0" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Sonnet 5.5 (max)</text>
+<text x="689.6" y="719.0" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$10.02 · Idx 55 (18× Sol hi)</text>
+<circle cx="655.6" cy="339.6" r="14.5" fill="#CC8164" fill-opacity="0.14"/>
+<circle cx="655.6" cy="339.6" r="10.5" fill="#CC8164" stroke="#0B0F19" stroke-width="2"/>
+<text x="673.6" y="327.6" text-anchor="start" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Fable 5.2 (high)</text>
+<text x="673.6" y="341.6" text-anchor="start" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$9.08 · 49.1% FC (bench)</text>
+<circle cx="862.6" cy="275.8" r="16.0" fill="#CC8164" fill-opacity="0.14"/>
+<circle cx="862.6" cy="275.8" r="12.0" fill="#CC8164" stroke="#0B0F19" stroke-width="2"/>
+<text x="844.6" y="279.8" text-anchor="end" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2" font-weight="700">Fable 5.2 (max)</text>
+<text x="844.6" y="293.8" text-anchor="end" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.8">$26.54 · Index 65 Ceiling</text>
+<g transform="translate(960, 166)">
+<rect width="584" height="662" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
+<text x="26" y="36" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18.5" font-weight="700">B. Proof Scaling Isn’t Capped: The 3D Asset Jump</text>
+<text x="26" y="57" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5">AA-3D Elo (bench ceiling): closed-loop spatial RL obsoleted Meshy</text>
+<text x="26" y="98" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">GPT-6.2 Astra (max bench)</text>
+<text x="558" y="98" text-anchor="end" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1318 Elo</text>
+<rect x="26" y="105" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="105" width="468.9" height="12" rx="6" fill="#72C2A8"/>
+<text x="26" y="130" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Start at medium for hero assets (max overkill)</text>
+<text x="26" y="154" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">Claude Fable 5.2 (max)</text>
+<text x="558" y="154" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1271 Elo</text>
+<rect x="26" y="161" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="161" width="376.3" height="12" rx="6" fill="#CC8164"/>
+<text x="26" y="186" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">#2 AA-3D · strong creative composition</text>
+<text x="26" y="210" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">GPT-6.2 Sol (max bench)</text>
+<text x="558" y="210" text-anchor="end" fill="#A3D9C6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1259 Elo</text>
+<rect x="26" y="217" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="217" width="352.7" height="12" rx="6" fill="#A3D9C6"/>
+<text x="26" y="242" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">#3 AA-3D · high for geometry, med for texture</text>
+<text x="26" y="266" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">Gemini 4 Neon (xhigh)</text>
+<text x="558" y="266" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1246 Elo</text>
+<rect x="26" y="273" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="273" width="327.1" height="12" rx="6" fill="#8EB8F0"/>
+<text x="26" y="298" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">#4 AA-3D · strong 3D visual review</text>
+<text x="26" y="322" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">Claude Opus 5.5 (max)</text>
+<text x="558" y="322" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1202 Elo</text>
+<rect x="26" y="329" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="329" width="240.4" height="12" rx="6" fill="#E29B7D"/>
+<text x="26" y="354" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Stronger on rig/code fixes than raw mesh gen</text>
+<text x="26" y="378" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">Gemini 4 Carbon (high)</text>
+<text x="558" y="378" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1200 Elo</text>
+<rect x="26" y="385" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="385" width="236.4" height="12" rx="6" fill="#6695D9"/>
+<text x="26" y="410" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Built for causal depth, not 3D topology</text>
+<text x="26" y="434" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">GPT-6 Astra (prior 6.0)</text>
+<text x="558" y="434" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1168 Elo</text>
+<rect x="26" y="441" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="441" width="173.4" height="12" rx="6" fill="#475569"/>
+<text x="26" y="466" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Needed 2D image → Meshy (+150 Elo jump in 6.2)</text>
+<text x="26" y="490" fill="#CBD5E1" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">GPT-6 Sol (prior 6.0)</text>
+<text x="558" y="490" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="700">1131 Elo</text>
+<rect x="26" y="497" width="532" height="12" rx="6" fill="#0B0F19" stroke="#1E293B"/>
+<rect x="26" y="497" width="100.5" height="12" rx="6" fill="#334155"/>
+<text x="26" y="522" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Pre-6.2 spatial baseline (+128 Elo jump in 6.2)</text>
+<rect x="24" y="544" width="536" height="96" rx="10" fill="#1E2536" stroke="#2A3347"/>
+      <text x="40" y="568" fill="#A3D9C6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">Why 2024 “Text Pre-Training Wall” Takes Miss This:</text>
+      <text x="40" y="589" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Web-text scraping plateaued in late 2024, so labs moved compute into</text>
+      <text x="40" y="607" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">build → render → inspect RL loops. Jumping +150 Elo from 6.0 to 6.2</text>
+      <text x="40" y="625" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">put real 3D topology inside the weights—impossible for Haiku swarms.</text>
+</g>
+
+  <!-- Footer -->
+  <line x1="56" y1="848" x2="1544" y2="848" stroke="#2A3347" stroke-width="1"/>
+  <text x="56" y="875" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Sources: Artificial Analysis v5.0.1 task cost telemetry (solid) &amp; effort estimates (hollow); AA-3D Elo leaderboard (Nov 2026).</text>
+  <text x="1544" y="875" text-anchor="end" fill="#64748B" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5">CALIBRATED FRONTIER ATLAS · NOV 2026</text>
+</svg>

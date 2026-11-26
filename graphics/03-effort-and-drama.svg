@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11151F"/>
+      <stop offset="100%" stop-color="#181F30"/>
+    </linearGradient>
+    <linearGradient id="anthGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CC8164"/>
+      <stop offset="100%" stop-color="#EBB9A2"/>
+    </linearGradient>
+    <linearGradient id="oaiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5FA890"/>
+      <stop offset="100%" stop-color="#A3D9C6"/>
+    </linearGradient>
+    <linearGradient id="googGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6695D9"/>
+      <stop offset="100%" stop-color="#9BC2F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <g transform="translate(56, 40)">
+    <rect x="0" y="0" width="246" height="25" rx="12.5" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="123" y="16.5" text-anchor="middle" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11" font-weight="600" letter-spacing="1">PLATE 03 · EFFORT &amp; DRAMA</text>
+    <text x="0" y="58" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="700" letter-spacing="-0.5">Effort Curves &amp; Why Quiet Restraint Wins Long Horizons</text>
+    <text x="0" y="83" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Left: Carbon’s base-weight floor vs. Neon’s xhigh loop. Right: compounding alignment retention (1 − noise)^steps</text>
+
+    <!-- Evidence Legend Top-Right -->
+    <g transform="translate(1058, 8)">
+      <rect x="0" y="0" width="430" height="44" rx="10" fill="#171C29" stroke="#2A3347" stroke-width="1"/>
+      <rect x="14" y="12" width="66" height="20" rx="5" fill="#064E3B"/>
+      <text x="47" y="26" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">LOGGED</text>
+      <text x="88" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">Real project</text>
+      <rect x="166" y="12" width="58" height="20" rx="5" fill="#1E3A5F"/>
+      <text x="195" y="26" text-anchor="middle" fill="#7DD3FC" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">BENCH</text>
+      <text x="232" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">AA / Card only</text>
+      <rect x="322" y="12" width="76" height="20" rx="5" fill="#1E293B"/>
+      <text x="360" y="26" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">UNTESTED</text>
+    </g>
+  </g>
+
+  <line x1="56" y1="142" x2="1544" y2="142" stroke="#2A3347" stroke-width="1"/>
+
+  <g transform="translate(56, 172)">
+<rect width="724" height="650" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
+<text x="28" y="36" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="19.5" font-weight="700">A. Carbon vs. Neon Across Effort Tiers (AA Index v5)</text>
+<text x="28" y="58" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13">Carbon’s heavy base weights carry low/medium; Neon needs xhigh chains to win</text>
+<rect x="76" y="92" width="596" height="400" rx="8" fill="#0B0F19" stroke="#222B3E"/>
+<line x1="76" y1="453.9" x2="672" y2="453.9" stroke="#222B3E"/>
+<text x="64" y="457.9" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">44</text>
+<line x1="76" y1="377.7" x2="672" y2="377.7" stroke="#222B3E"/>
+<text x="64" y="381.7" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">48</text>
+<line x1="76" y1="301.5" x2="672" y2="301.5" stroke="#222B3E"/>
+<text x="64" y="305.5" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">52</text>
+<line x1="76" y1="225.3" x2="672" y2="225.3" stroke="#222B3E"/>
+<text x="64" y="229.3" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">56</text>
+<line x1="76" y1="149.1" x2="672" y2="149.1" stroke="#222B3E"/>
+<text x="64" y="153.1" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">60</text>
+<line x1="76" y1="111.0" x2="672" y2="111.0" stroke="#222B3E"/>
+<text x="64" y="115.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">62</text>
+<line x1="144.0" y1="92" x2="144.0" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="144.0" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="600">low</text>
+<line x1="297.3" y1="92" x2="297.3" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="297.3" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="600">medium</text>
+<line x1="450.7" y1="92" x2="450.7" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="450.7" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="600">high</text>
+<line x1="604.0" y1="92" x2="604.0" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="604.0" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="13" font-weight="600">xhigh</text>
+<polyline points="144.0,453.9 297.3,244.4 450.7,149.1 604.0,130.1" fill="none" stroke="#8EB8F0" stroke-width="3.5"/>
+<polyline points="144.0,263.4 297.3,187.2 450.7,149.1" fill="none" stroke="#6695D9" stroke-width="3.5"/>
+<line x1="76" y1="168.2" x2="672" y2="168.2" stroke="#E29B7D" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="660" y="160.2" text-anchor="end" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11">Opus 5.5 max (59)</text>
+<line x1="144.0" y1="273.4" x2="144.0" y2="443.9" stroke="#F43F5E" stroke-width="2" stroke-dasharray="3 3"/>
+<rect x="158.0" y="345.7" width="132" height="25" rx="6" fill="#1E1B4B" stroke="#6695D9"/>
+<text x="224.0" y="362.7" text-anchor="middle" fill="#E0E7FF" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700">Carbon +10 pts</text>
+<rect x="311.3" y="203.8" width="122" height="25" rx="6" fill="#1E1B4B" stroke="#6695D9"/>
+<text x="372.3" y="220.8" text-anchor="middle" fill="#E0E7FF" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5" font-weight="700">Carbon +3 pts</text>
+<circle cx="144.0" cy="453.9" r="7" fill="#8EB8F0" stroke="#0B0F19" stroke-width="2"/>
+<text x="144.0" y="476.9" text-anchor="middle" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Neon 44</text>
+<circle cx="297.3" cy="244.4" r="7" fill="#8EB8F0" stroke="#0B0F19" stroke-width="2"/>
+<text x="297.3" y="267.4" text-anchor="middle" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Neon 55</text>
+<circle cx="450.7" cy="149.1" r="7" fill="#8EB8F0" stroke="#0B0F19" stroke-width="2"/>
+<text x="450.7" y="172.1" text-anchor="middle" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Neon 60</text>
+<circle cx="604.0" cy="130.1" r="7" fill="#8EB8F0" stroke="#0B0F19" stroke-width="2"/>
+<text x="604.0" y="116.1" text-anchor="middle" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Neon 61</text>
+<circle cx="144.0" cy="263.4" r="7" fill="#6695D9" stroke="#0B0F19" stroke-width="2"/>
+<text x="144.0" y="249.4" text-anchor="middle" fill="#6695D9" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Carbon 54</text>
+<circle cx="297.3" cy="187.2" r="7" fill="#6695D9" stroke="#0B0F19" stroke-width="2"/>
+<text x="297.3" y="173.2" text-anchor="middle" fill="#6695D9" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Carbon 58</text>
+<circle cx="450.7" cy="149.1" r="7" fill="#6695D9" stroke="#0B0F19" stroke-width="2"/>
+<text x="450.7" y="135.1" text-anchor="middle" fill="#6695D9" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700">Carbon 60</text>
+<rect x="28" y="534" width="668" height="92" rx="10" fill="#1E2536" stroke="#2A3347"/>
+      <text x="44" y="558" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">Where Carbon Still Beats Neon Peak-for-Peak (Benchmarks):</text>
+      <text x="44" y="580" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2">• CritPt v2 Hard: 69.0% vs. 60.5% (+8.5 pts) · Terminal-Bench 4.1: 64.5% vs. 61.2% (+3.3 pts)</text>
+      <text x="44" y="601" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2">• AA-LCR 100k Synthesis: 79.3% vs. 74.7% (+4.6 pts) · Base weights hold AA 54 at low (+10 pts)</text>
+</g>
+<g transform="translate(804, 172)">
+<rect width="740" height="650" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
+<text x="28" y="36" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="19.5" font-weight="700">B. Cutting Out “Mechanical Drama” Over 30 Steps</text>
+<text x="28" y="58" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13">Why Opus 5.5 (Index 59) beats higher single-shot IQs across multi-session builds</text>
+<rect x="72" y="92" width="628" height="400" rx="8" fill="#0B0F19" stroke="#222B3E"/>
+<line x1="72" y1="412.0" x2="700" y2="412.0" stroke="#222B3E"/>
+<text x="62" y="416.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">20%</text>
+<line x1="72" y1="332.0" x2="700" y2="332.0" stroke="#222B3E"/>
+<text x="62" y="336.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">40%</text>
+<line x1="72" y1="252.0" x2="700" y2="252.0" stroke="#222B3E"/>
+<text x="62" y="256.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">60%</text>
+<line x1="72" y1="172.0" x2="700" y2="172.0" stroke="#222B3E"/>
+<text x="62" y="176.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">80%</text>
+<line x1="72" y1="92.0" x2="700" y2="92.0" stroke="#222B3E"/>
+<text x="62" y="96.0" text-anchor="end" fill="#9AA5B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">100%</text>
+<line x1="72.0" y1="92" x2="72.0" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="72.0" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 0</text>
+<line x1="176.7" y1="92" x2="176.7" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="176.7" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 5</text>
+<line x1="281.3" y1="92" x2="281.3" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="281.3" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 10</text>
+<line x1="386.0" y1="92" x2="386.0" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="386.0" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 15</text>
+<line x1="490.7" y1="92" x2="490.7" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="490.7" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 20</text>
+<line x1="595.3" y1="92" x2="595.3" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="595.3" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 25</text>
+<line x1="700.0" y1="92" x2="700.0" y2="492" stroke="#222B3E" stroke-dasharray="4 4"/>
+<text x="700.0" y="516" text-anchor="middle" fill="#EEF1F6" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12">Step 30</text>
+<polyline points="72.0,92.0 92.9,94.0 113.9,96.0 134.8,98.0 155.7,99.9 176.7,101.9 197.6,103.9 218.5,105.8 239.5,107.7 260.4,109.6 281.3,111.6 302.3,113.5 323.2,115.4 344.1,117.2 365.1,119.1 386.0,121.0 406.9,122.8 427.9,124.7 448.8,126.5 469.7,128.3 490.7,130.2 511.6,132.0 532.5,133.8 553.5,135.6 574.4,137.3 595.3,139.1 616.3,140.9 637.2,142.6 658.1,144.4 679.1,146.1 700.0,147.8" fill="none" stroke="#E29B7D" stroke-width="3.6"/>
+<circle cx="700.0" cy="147.8" r="5.5" fill="#E29B7D"/>
+<text x="687.4" y="137.8" text-anchor="end" fill="#E29B7D" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Opus 5.5 (high) — ~0.5% noise/step (Quiet Idiom Lock) → 86%</text>
+<polyline points="72.0,92.0 92.9,99.2 113.9,106.3 134.8,113.2 155.7,120.0 176.7,126.7 197.6,133.3 218.5,139.8 239.5,146.1 260.4,152.3 281.3,158.4 302.3,164.4 323.2,170.3 344.1,176.1 365.1,181.8 386.0,187.4 406.9,192.9 427.9,198.3 448.8,203.6 469.7,208.7 490.7,213.8 511.6,218.8 532.5,223.8 553.5,228.6 574.4,233.3 595.3,238.0 616.3,242.6 637.2,247.1 658.1,251.5 679.1,255.8 700.0,260.0" fill="none" stroke="#72C2A8" stroke-width="2.8"/>
+<circle cx="700.0" cy="260.0" r="5.5" fill="#72C2A8"/>
+<text x="687.4" y="250.0" text-anchor="end" fill="#72C2A8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Scoped Sol / Astra / Neon w/ Opus Triage (~1.8% noise) → 58%</text>
+<polyline points="72.0,92.0 92.9,107.2 113.9,121.8 134.8,135.9 155.7,149.4 176.7,162.4 197.6,175.0 218.5,187.0 239.5,198.6 260.4,209.7 281.3,220.5 302.3,230.8 323.2,240.7 344.1,250.3 365.1,259.5 386.0,268.3 406.9,276.8 427.9,285.0 448.8,292.8 469.7,300.4 490.7,307.7 511.6,314.7 532.5,321.4 553.5,327.9 574.4,334.1 595.3,340.1 616.3,345.9 637.2,351.5 658.1,356.8 679.1,361.9 700.0,366.9" fill="none" stroke="#8EB8F0" stroke-width="2.6"/>
+<circle cx="700.0" cy="366.9" r="5.5" fill="#8EB8F0"/>
+<text x="687.4" y="356.9" text-anchor="end" fill="#8EB8F0" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Unguided High-IQ Agent (~3.8% parallel bloat / false alarms) → 31%</text>
+<polyline points="72.0,92.0 92.9,122.0 113.9,149.7 134.8,175.4 155.7,199.2 176.7,221.1 197.6,241.4 218.5,260.2 239.5,277.6 260.4,293.7 281.3,308.6 302.3,322.3 323.2,335.1 344.1,346.8 365.1,357.7 386.0,367.8 406.9,377.1 427.9,385.7 448.8,393.7 469.7,401.1 490.7,407.9 511.6,414.2 532.5,420.0 553.5,425.4 574.4,430.4 595.3,435.0 616.3,439.3 637.2,443.3 658.1,446.9 679.1,450.3 700.0,453.4" fill="none" stroke="#F43F5E" stroke-width="2.6"/>
+<circle cx="700.0" cy="453.4" r="5.5" fill="#F43F5E"/>
+<text x="687.4" y="471.4" text-anchor="end" fill="#F43F5E" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700">Hyperagent Haiku / Fast Wrapper Swarm (~7.5% seam drift) → 10%</text>
+<rect x="28" y="534" width="684" height="92" rx="10" fill="#1E2536" stroke="#2A3347"/>
+      <text x="44" y="558" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700">The Four Flavors of Mechanical Drama:</text>
+      <text x="44" y="580" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2">• Performative smartness (inventing parallel helpers) · Crying wolf on non-bugs (Neon severity)</text>
+      <text x="44" y="601" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.2">• Literalist method obedience over visual quality (Sol/Astra) · Swarm seam blindness (Haiku DAGs)</text>
+</g>
+
+  <!-- Footer -->
+  <line x1="56" y1="848" x2="1544" y2="848" stroke="#2A3347" stroke-width="1"/>
+  <text x="56" y="875" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Sources: Artificial Analysis v5 thinking-tier telemetry (left) &amp; compounding step-coherence model aligned with AA-Briefcase v1.1 Elo rankings (right).</text>
+  <text x="1544" y="875" text-anchor="end" fill="#64748B" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5">CALIBRATED FRONTIER ATLAS · NOV 2026</text>
+</svg>
