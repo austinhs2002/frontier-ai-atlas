@@ -50,7 +50,7 @@ if __name__ == "__main__":
                ("Review security", "Neon", "High", FERN),
                ("Build the hero mesh", "Astra 6.2", "Medium", IRIS),
                ("Repair geometry or texture", "Sol 6.2", "High / medium", IRIS),
-               ("Design worlds and systems", "Fable 5.2", "High / max", CLAY),
+               ("Design worlds and systems", "Fable 5.2", "Medium / high", CLAY),
                ("Stretch an API budget", "Sol 6.2", "High / xhigh", IRIS)]],
            "Project picks depend on the brief. The interactive edition gives the rationale and switch condition for each role.")
     figure("02-pareto-and-3d-leap.svg", "Same index. Eighteen times the price.",
