@@ -49,7 +49,7 @@ if __name__ == "__main__":
                ("Own the code", "Opus 5.5", "High / max", CLAY),
                ("Review security", "Neon", "High", FERN),
                ("Build the hero mesh", "Astra 6.2", "Medium", IRIS),
-               ("Repair geometry or texture", "Sol 6.2", "High / medium", IRIS),
+               ("Repair an existing asset", "Astra 6.2", "High", IRIS),
                ("Design worlds and systems", "Fable 5.2", "Medium / high", CLAY),
                ("Stretch an API budget", "Sol 6.2", "High / xhigh", IRIS)]],
            "Project picks depend on the brief. The interactive edition gives the rationale and switch condition for each role.")
@@ -59,7 +59,7 @@ if __name__ == "__main__":
            [(("Sol high", "$0.56", "55"), IRIS), (("Sonnet max", "$10.02", "55"), CLAY)],
            "Source: Artificial Analysis values recorded in the November atlas. $10.02 divided by $0.56 is approximately 17.9.")
     figure("03-effort-and-drama.svg", "The Gemini gap closes with effort.",
-           "Carbon leads by ten AA Index points at low effort. Both reach 60 at high.",
+           "At high, both reach index 60. Neon costs $3.74 per AA task and Carbon costs $7.76.",
            [(76, "Effort"), (670, "Carbon / index"), (1090, "Neon / index")],
            [(("Low", "54", "44"), FERN), (("Medium", "58", "55"), FERN),
             (("High", "60", "60"), FERN), (("Peak: high / xhigh", "60", "62"), FERN)],
