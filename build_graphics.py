@@ -62,7 +62,7 @@ if __name__ == "__main__":
            "Carbon leads by ten AA Index points at low effort. Both reach 60 at high.",
            [(76, "Effort"), (670, "Carbon / index"), (1090, "Neon / index")],
            [(("Low", "54", "44"), FERN), (("Medium", "58", "55"), FERN),
-            (("High", "60", "60"), FERN), (("Peak: high / xhigh", "60", "61"), FERN)],
+            (("High", "60", "60"), FERN), (("Peak: high / xhigh", "60", "62"), FERN)],
            "Source: AA Intelligence Index v5 values recorded in the November atlas. Peak compares different effort settings.")
     figure("04-tri-lab-routing-cards.svg", "A tie on the terminal.",
            "For a long-horizon assignment, the additional 20-step observation changes the routing decision.",

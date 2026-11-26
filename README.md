@@ -1,13 +1,14 @@
 # Frontier AI Atlas (Nov 2026)
 
-Interactive 5-slide comparison deck and standalone vector plates comparing frontier models across **Anthropic** (Claude Opus 5.5, Fable 5.2, Sonnet 5.5), **OpenAI** (GPT-6.2 Astra, Sol), and **Google DeepMind** (Gemini 4 Neon, Carbon).
+Interactive 6-view comparison deck and standalone vector plates comparing frontier models across **Anthropic** (Claude Opus 5.5, Fable 5.2, Sonnet 5.5), **OpenAI** (GPT-6.2 Astra, Sol), and **Google DeepMind** (Gemini 4 Neon, Carbon).
 
 - **Live Site (GitHub Pages):** https://austinhs2002.github.io/frontier-ai-atlas/
 - **Repository:** https://github.com/austinhs2002/frontier-ai-atlas
 
 ## Structure
 
-- `index.html` — Self-contained interactive 5-slide presentation (light/dark toggle, `←`/`→` keyboard navigation, seven assignments, coding evidence reveal, illustrated 3D handoff, cost threshold explorer, Gemini effort comparison, and routing playbook).
+- `index.html` — Self-contained interactive 6-view presentation (light/dark toggle, `←`/`→` keyboard navigation, seven assignments, coding evidence reveal, illustrated 3D handoff, cost threshold explorer, Gemini effort comparison, routing playbook, and full chart with dated benchmark tables).
+- `original-chart.html` — Restored historical matrix and radar, linked from Full chart.
 - `build_graphics.py` — Pure Python generator for the 4 standalone `1600×900` vector plates (native SVG `<text>`/`<tspan>`, zero `<foreignObject>`).
 - `graphics/01–04*.svg` — Generated vector plates (do not edit by hand; regenerate via `build_graphics.py`).
 
