@@ -7,7 +7,7 @@ Interactive 5-slide comparison deck and standalone vector plates comparing front
 
 ## Structure
 
-- `index.html` — Self-contained interactive 5-slide presentation (light/dark toggle, `←`/`→` keyboard navigation, interactive capability matrix, radar, Pareto economics, and effort switchers).
+- `index.html` — Self-contained interactive 5-slide presentation (light/dark toggle, `←`/`→` keyboard navigation, seven assignments, coding evidence reveal, illustrated 3D handoff, cost threshold explorer, Gemini effort comparison, and routing playbook).
 - `build_graphics.py` — Pure Python generator for the 4 standalone `1600×900` vector plates (native SVG `<text>`/`<tspan>`, zero `<foreignObject>`).
 - `graphics/01–04*.svg` — Generated vector plates (do not edit by hand; regenerate via `build_graphics.py`).
 

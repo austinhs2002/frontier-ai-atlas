@@ -1,181 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
-  <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#11151F"/>
-      <stop offset="100%" stop-color="#181F30"/>
-    </linearGradient>
-    <linearGradient id="anthGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#CC8164"/>
-      <stop offset="100%" stop-color="#EBB9A2"/>
-    </linearGradient>
-    <linearGradient id="oaiGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5FA890"/>
-      <stop offset="100%" stop-color="#A3D9C6"/>
-    </linearGradient>
-    <linearGradient id="googGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6695D9"/>
-      <stop offset="100%" stop-color="#9BC2F5"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="900" fill="url(#bgGrad)"/>
-
-  <!-- Header -->
-  <g transform="translate(56, 40)">
-    <rect x="0" y="0" width="246" height="25" rx="12.5" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-    <text x="123" y="16.5" text-anchor="middle" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11" font-weight="600" letter-spacing="1">PLATE 04 · SEAT ROUTING PLAYBOOK</text>
-    <text x="0" y="58" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="700" letter-spacing="-0.5">Tri-Lab Seat &amp; Effort Routing — Calibrated to Models.md</text>
-    <text x="0" y="83" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Pure native vector cards: Opus owns coding, Sol high for geometry / med for texture, Neon findings triaged by Claude</text>
-
-    <!-- Evidence Legend Top-Right -->
-    <g transform="translate(1058, 8)">
-      <rect x="0" y="0" width="430" height="44" rx="10" fill="#171C29" stroke="#2A3347" stroke-width="1"/>
-      <rect x="14" y="12" width="66" height="20" rx="5" fill="#064E3B"/>
-      <text x="47" y="26" text-anchor="middle" fill="#8CD4B5" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">LOGGED</text>
-      <text x="88" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">Real project</text>
-      <rect x="166" y="12" width="58" height="20" rx="5" fill="#1E3A5F"/>
-      <text x="195" y="26" text-anchor="middle" fill="#7DD3FC" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">BENCH</text>
-      <text x="232" y="26" fill="#9AA5B8" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5">AA / Card only</text>
-      <rect x="322" y="12" width="76" height="20" rx="5" fill="#1E293B"/>
-      <text x="360" y="26" text-anchor="middle" fill="#94A3B8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.5" font-weight="700">UNTESTED</text>
-    </g>
-  </g>
-
-  <line x1="56" y1="142" x2="1544" y2="142" stroke="#2A3347" stroke-width="1"/>
-
-  <g transform="translate(56, 168)">
-<rect width="478" height="658" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
-<rect width="478" height="7" rx="3.5" fill="url(#anthGrad)"/>
-<text x="22" y="34" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700" letter-spacing="1.2">ANTHROPIC</text>
-<text x="22" y="55" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Lead Coordinator, Repo Coding &amp; Creative Ceiling</text>
-<text x="22" y="73" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Next wave: Q1 2027 Fable 5.2 → Opus/Sonnet distillation (Project Rainier)</text>
-<line x1="22" y1="84" x2="456" y2="84" stroke="#222B3E"/>
-<g transform="translate(18, 96)">
-<rect width="442" height="176" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Claude Opus 5.5</text>
-<text x="16" y="42" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">high (lead &amp; coding) · med (floor) · xhigh/max (wide)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">AA 59 · #1 Briefcase (1797) · #1 Native T4.1 (65.8%) &amp; BOBA (66.8%)</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> Project lead, owns coding, security triage,</tspan>
-<tspan x="16" dy="15.5" fill="#E2E8F0">composing places, rig/geo fixes with zero mechanical drama.</tspan>
-</text>
-<text x="16" y="118.0" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> Trails on scratch 3D (1202) &amp; 1M graph walks</tspan>
-<tspan x="16" dy="15.5" fill="#94A3B8">(66.8%); don't relay ownership from memory.</tspan>
-</text>
-</g>
-<g transform="translate(18, 282)">
-<rect width="442" height="176" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Claude Fable 5.2</text>
-<text x="16" y="42" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">med ($3.80 knee) · high ($9.08 design) · low (Q&amp;A)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">#1 AA (65) · #1 ECI (173) · 49.1% FC (bench only)</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> Unmatched human-relation &amp; system design; med is</tspan>
-<tspan x="16" dy="15.5" fill="#E2E8F0">best efficiency knee ($3.80); high jumps clearly while xhigh</tspan>
-<tspan x="16" dy="15.5" fill="#E2E8F0">($14.83) plateaus.</tspan>
-</text>
-<text x="16" y="133.5" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> 2× Opus token rate; not routed for coding; ends</tspan>
-<tspan x="16" dy="15.5" fill="#94A3B8">early at low/med; cyber flags drop to fallback.</tspan>
-</text>
-</g>
-<g transform="translate(18, 468)">
-<rect width="442" height="176" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Sonnet 5.5 &amp; Haiku 5.5</text>
-<text x="16" y="42" fill="#E29B7D" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">Sonnet med (&lt;$1 crown) / high · Haiku high/xhigh</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">Sonnet: allowance &amp; install workhorse · Haiku: 36% Omniscience</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> Sonnet med wins budget efficiency; Sonnet high</tspan>
-<tspan x="16" dy="15.5" fill="#E2E8F0">reviews Opus &amp; runs installs; Haiku xhigh for 2nd-angle</tspan>
-<tspan x="16" dy="15.5" fill="#E2E8F0">search.</tspan>
-</text>
-<text x="16" y="133.5" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> Skip Sonnet max ($10.02 trap); Haiku swarms cannot</tspan>
-<tspan x="16" dy="15.5" fill="#94A3B8">design coupled system seams.</tspan>
-</text>
-</g>
-</g>
-<g transform="translate(561, 168)">
-<rect width="478" height="658" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
-<rect width="478" height="7" rx="3.5" fill="url(#oaiGrad)"/>
-<text x="22" y="34" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700" letter-spacing="1.2">OPENAI</text>
-<text x="22" y="55" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">3D Asset Construction, Geometry/Texture &amp; Fallback Code</text>
-<text x="22" y="73" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Next wave: Riding 6.2 ROI while gating 'Bel' / GPT-7 behind RSI Control Rooms</text>
-<line x1="22" y1="84" x2="456" y2="84" stroke="#222B3E"/>
-<g transform="translate(18, 96)">
-<rect width="442" height="268" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">GPT-6.2 Sol</text>
-<text x="16" y="42" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">high (#2 hero 3D &amp; geo) · med (tex/gathers) · xhigh (continent)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">AA 57 · ECI 169 · $1.01 AA API · #3 AA-3D (1259)</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> High puts Sol #2 on scoped 3D hero assets &amp;</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">handles Blender geometry; med owns texture/gathers;</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">xhigh continent/code.</tspan>
-</text>
-<text x="16" y="141.6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> xhigh degrades on focused single hero assets;</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">tight ChatGPT cap; brief strict scope + open method;</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">never Sol max for code.</tspan>
-</text>
-</g>
-<g transform="translate(18, 376)">
-<rect width="442" height="268" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">GPT-6.2 Astra</text>
-<text x="16" y="42" fill="#72C2A8" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">medium (hero 3D assets) · xhigh ($2.52 Index 62)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">AA 62 · #1 ECI (173 tie) · #1 AA-3D (1318 at max)</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> From-scratch 3D hero assets starting at</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">medium (obsoletes Meshy); backup precision reviewer at</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">high/xhigh.</tspan>
-</text>
-<text x="16" y="141.6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> Astra max is overkill for game dev; plateaued</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">on multi-file repo idiom fit (44.2% FC).</tspan>
-</text>
-</g>
-</g>
-<g transform="translate(1066, 168)">
-<rect width="478" height="658" rx="14" fill="#171C29" stroke="#2A3347" stroke-width="1.2"/>
-<rect width="478" height="7" rx="3.5" fill="url(#googGrad)"/>
-<text x="22" y="34" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="12.5" font-weight="700" letter-spacing="1.2">GOOGLE DEEPMIND</text>
-<text x="22" y="55" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">1M Forensic Verification, Speed &amp; Newly Unlocked Carbon</text>
-<text x="22" y="73" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Next wave: Fastest iterative TPU element/Flash drops; Gemini 5 mid/late 2027</text>
-<line x1="22" y1="84" x2="456" y2="84" stroke="#222B3E"/>
-<g transform="translate(18, 96)">
-<rect width="442" height="268" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Gemini 4 Neon</text>
-<text x="16" y="42" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">high (reviews/UI) · xhigh (audits) · med (default)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">AA 61 · ~110 tok/s · #1 Coding Agent · ~1389 Design Elo</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> Outside cross-family security reviewer, pre-</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">install live-vs-candidate forensic diff, and 3D visual</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">QA (1246).</tspan>
-</text>
-<text x="16" y="141.6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> Overstates severity &amp; re-opens settled</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">decisions—Claude must triage findings; collapses at low</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">(AA 44).</tspan>
-</text>
-</g>
-<g transform="translate(18, 376)">
-<rect width="442" height="268" rx="10" fill="#1E2536" stroke="#2A3347"/>
-<text x="16" y="24" fill="#EEF1F6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15.5" font-weight="700">Gemini 4 Carbon</text>
-<text x="16" y="42" fill="#8EB8F0" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.8" font-weight="600">low (corpus advice — Fable of Gemini) · high (AA-LCR/CritPt)</text>
-<text x="16" y="59" fill="#CBD5E1" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="10.4">AA 54 at low (+10 vs Neon) · #3 ECI (170) · 79.3% AA-LCR</text>
-<text x="16" y="80" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#8CD4B5" font-weight="700">+ Best at:</tspan><tspan fill="#E2E8F0"> General corpus-contained advice on low (saves</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">Fable/Astra caps); beats Neon on CritPt (+8.5%), T-Bench</tspan>
-<tspan x="16" dy="18.2" fill="#E2E8F0">4.1 (64.5%), &amp; AA-LCR.</tspan>
-</text>
-<text x="16" y="141.6" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.4">
-<tspan x="16" dy="0" fill="#E29B7D" font-weight="700">− Watch:</tspan><tspan fill="#94A3B8"> Half Neon’s speed (~55 tok/s), weaker 3D</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">(1200), and heavy base weights burn $20 Pro quota fast</tspan>
-<tspan x="16" dy="18.2" fill="#94A3B8">at high.</tspan>
-</text>
-</g>
-</g>
-
-  <!-- Footer -->
-  <line x1="56" y1="848" x2="1544" y2="848" stroke="#2A3347" stroke-width="1"/>
-  <text x="56" y="875" fill="#64748B" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12">Scope-not-method for OpenAI · File/line proof + Opus triage for Neon · Carbon newly unlocked on $20 Pro (untested in project).</text>
-  <text x="1544" y="875" text-anchor="end" fill="#64748B" font-family="Cascadia Code, Consolas, ui-monospace, monospace" font-size="11.5">CALIBRATED FRONTIER ATLAS · NOV 2026</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+<title>A tie on the terminal.</title>
+<rect width="1600" height="900" fill="#F6F3EC"/>
+<text x="76" y="70" font-family="Georgia,serif" font-size="33" font-weight="650" fill="#222623">Frontier AI Atlas</text>
+<text x="1278" y="65" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#555D58">FIELD EDITION  /  NOV 2026</text>
+<path d="M76 95 H1524" stroke="#C7CABF"/>
+<text x="76" y="198" font-family="Georgia,serif" font-size="76" font-weight="400" fill="#222623">A tie on the terminal.</text>
+<text x="80" y="253" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#555D58">For a long-horizon assignment, the additional 20-step observation changes the routing decision.</text>
+<text x="76" y="335" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="650" fill="#555D58">MODEL</text>
+<text x="650" y="335" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="650" fill="#555D58">NATIVE TERMINAL-BENCH 4.1</text>
+<text x="1180" y="335" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="650" fill="#555D58">BOBA 20-STEP</text>
+<path d="M76 356 H1524" stroke="#C7CABF"/>
+<text x="76" y="416.8" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400" fill="#222623">Opus 5.5</text>
+<text x="650" y="416.8" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="650" fill="#93432D">65.8%</text>
+<text x="1180" y="416.8" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="400" fill="#222623">66.8%</text>
+<path d="M76 451 H1524" stroke="#C7CABF"/>
+<text x="76" y="511.8" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="400" fill="#222623">Fable 5.2</text>
+<text x="650" y="511.8" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="650" fill="#93432D">65.8%</text>
+<text x="1180" y="511.8" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="400" fill="#222623">No result recorded</text>
+<path d="M76 800 H1524" stroke="#C7CABF"/>
+<text x="76" y="848" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#555D58">Sources: native Terminal-Bench 4.1 and BOBA 20-step as recorded in the atlas. Fable’s long-horizon result is unknown.</text>
 </svg>
