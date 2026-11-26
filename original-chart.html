@@ -240,11 +240,40 @@
     .plate-card a:hover { text-decoration: underline; }
 
     footer { text-align: center; padding: 16px; font-size: 12px; color: var(--dim); border-top: 1px solid var(--border); }
-  body{min-height:0}main{flex:none;padding:16px}.matrix-wrap{overscroll-behavior-x:contain}</style>
+  body{min-height:0}main{flex:none;padding:16px}.matrix-wrap{overscroll-behavior-x:contain}
+    /* Phone dense view: one card per job, one row per model */
+    .job-cards { display: none; }
+    .job-card { background: var(--panel-alt); border: 1px solid var(--border); border-left: 4px solid var(--opus); border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+    .jc-head { padding: 10px 12px; }
+    .jc-head .c-title { font-weight: 700; font-size: 15px; }
+    .jc-head .c-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .jc-row { display: block; width: 100%; text-align: left; background: rgba(8,12,20,0.48); border: 0; border-top: 1px solid var(--grid); padding: 8px 12px; color: inherit; font: inherit; cursor: pointer; }
+    body.light .jc-row { background: #f8fafc; }
+    .jc-row.crown { background: rgba(56, 189, 248, 0.09); }
+    .jc-row.sel { outline: 1px solid var(--neon); outline-offset: -1px; }
+    .jc-row:focus-visible { outline: 2px solid var(--neon); outline-offset: -2px; }
+    .jc-top { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+    .jc-name { font-weight: 700; font-size: 13.5px; flex: 1; min-width: 0; }
+    .jc-row .bar-track { height: 4px; margin-bottom: 5px; }
+    .jc-note { padding: 9px 12px 11px; font-size: 12.5px; color: var(--muted); border-top: 1px dashed var(--grid); background: var(--panel); }
+    .jc-note p { color: var(--text); margin-bottom: 6px; }
+    @media (max-width: 700px) {
+      main { padding: 10px; }
+      #viewChips, #slide-1, .matrix-wrap, .inspector-banner { display: none !important; }
+      #slide-0 { display: block !important; }
+      .job-cards { display: block; }
+      .card { padding: 10px; }
+      .card-trunc { padding: 10px; }
+      .slide-head h2 { font-size: 20px; }
+      .section-tag { font-size: 10.5px; }
+      #labFilters { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 8px 0; margin-bottom: 4px; }
+      #labFilters > span { display: none; }
+      .trunc-head { flex-direction: column; align-items: flex-start; gap: 4px; }
+    }</style>
 </head>
 <body>
 
-<main><div class="filter-row" aria-label="Historical displays"><button class="chip" onclick="document.getElementById('slide-0').classList.add('active');document.getElementById('slide-1').classList.remove('active')">Capability matrix</button><button class="chip" onclick="document.getElementById('slide-1').classList.add('active');document.getElementById('slide-0').classList.remove('active')">Project radar</button></div>  <!-- SLIDE 1: FANNED CAPABILITY LENS -->
+<main><div class="filter-row" id="backRow"><a class="chip" href="index.html#full-chart" style="text-decoration:none">← Back to the atlas</a></div><div class="filter-row" id="viewChips" aria-label="Chart displays"><button class="chip" onclick="document.getElementById('slide-0').classList.add('active');document.getElementById('slide-1').classList.remove('active')">Capability matrix</button><button class="chip" onclick="document.getElementById('slide-1').classList.add('active');document.getElementById('slide-0').classList.remove('active')">Project radar</button></div>  <!-- SLIDE 1: FANNED CAPABILITY LENS -->
   <section class="slide active" id="slide-0">
     <div class="slide-head">
       <div>
@@ -276,8 +305,9 @@
       <div class="matrix-wrap">
         <table class="lens-table" id="coreTable"></table>
       </div>
+      <div class="job-cards" id="coreCards"></div>
       <div class="inspector-banner" id="cellInspector">
-        <div><strong>1. Project Lead — Opus 5.5 (high · LOGGED):</strong> Owns overall lead &amp; coding; #1 AA-Briefcase (1797 Elo), #1 native Terminal-Bench 4.1 (65.8% in Claude Code), &amp; #1 BOBA-Bench 20-step (66.8%). Click any cell to inspect.</div>
+        <div><strong>1. Project Lead — Opus 5.5 (high · LOGGED):</strong> Owns overall lead &amp; coding; #1 AA-Briefcase (1797 Elo), top three-lab score on native Terminal-Bench 4.1 (65.8% in Claude Code), &amp; #1 BOBA-Bench 20-step (66.8%). Click any cell to inspect.</div>
         <span style="font-family:var(--mono);font-size:11px;color:var(--neon);white-space:nowrap;">CALIBRATED NOTE</span>
       </div>
     </div>
@@ -322,8 +352,8 @@
 
 </main><script>
 const MODELS = [
-  { id: 'opus', name: 'Opus 5.5', sub: 'Anthropic', lab: 'ANTHROPIC', color: '#e29b7d', helper: false, summary: 'Project lead & owns coding (high). #1 AA-Briefcase (1797), #1 native T-Bench 4.1 (65.8% Claude Code), & #1 BOBA 20-step (66.8%). Zero mechanical drama.' },
-  { id: 'fable', name: 'Fable 5.2', sub: 'Anthropic', lab: 'ANTHROPIC', color: '#cc8164', helper: false, summary: 'Creative/system-feel crown (high/max) & top closed-book omniscience (low, 79%). Benchmark #1 coding (49.1%) but not routed for coding.' },
+  { id: 'opus', name: 'Opus 5.5', sub: 'Anthropic', lab: 'ANTHROPIC', color: '#e29b7d', helper: false, summary: 'Project lead & owns coding (high). #1 AA-Briefcase (1797), top three-lab native T-Bench 4.1 (65.8% Claude Code), & #1 BOBA 20-step (66.8%). Zero mechanical drama.' },
+  { id: 'fable', name: 'Fable 5.2', sub: 'Anthropic', lab: 'ANTHROPIC', color: '#cc8164', helper: false, summary: 'Creative/system-feel crown (medium/high) & top closed-book omniscience (low, 79%). Benchmark #1 coding (49.1%) but not routed for coding.' },
   { id: 'sonnet', name: 'Sonnet 5.5', sub: 'Anthropic', lab: 'ANTHROPIC', color: '#ebb9a2', helper: false, summary: 'Allowance/cost crown at medium (<$1/task); default reviewer of Opus work & installs at high. Skip max ($10.02 trap).' },
   { id: 'astra', name: 'Astra 6.2', sub: 'OpenAI', lab: 'OPENAI', color: '#72c2a8', helper: false, summary: 'From-scratch 3D hero asset crown starting at medium (max hits #1 AA-3D 1318, overkill for daily dev). Backup precision reviewer at xhigh.' },
   { id: 'sol', name: 'Sol 6.2', sub: 'OpenAI', lab: 'OPENAI', color: '#a3d9c6', helper: false, summary: 'Moved to high for Blender geometry; medium for coat/texture & massive asset gathers; xhigh for fallback coding ($1.01 AA API, tight ChatGPT cap).' },
@@ -352,8 +382,9 @@ const CORE_CAPS = [
     title: '2. Proficient Coder', sub: 'Native T-Bench 4.1 (tbench.ai) + BOBA 20-step',
     detail: 'Native-harness Terminal-Bench 4.1 (tbench.ai: Claude Code / Codex / Antigravity CLI) + BOBA-Bench 20-step chains (arXiv:2611.02207): Opus 5.5 (65.8% T4.1, #1 BOBA 66.8%) and Fable 5.2 (65.8% T4.1, untested on BOBA) are a statistical tie on raw coding; Opus holds the crown on breadth, cost, and verified 20-step cleanliness. Carbon hits 64.5%, Sonnet max 63.9% (routed high for patches/server), Astra 62.1%, Sol 61.5% (fallback), Neon 61.2%.',
     cells: [
-      { eff:'hi/max', ev:'LOGGED', lbl:'CROWN · 65.8% · BOBA #1', bar:98, bright:true, crown:true, radar:98 },
-      { eff:'xhigh', ev:'BENCH', lbl:'65.8% T4.1 (tie) · $14.83', bar:98, bright:true, crown:false, radar:96 },
+      { eff:'hi/max', ev:'LOGGED', lbl:'CROWN · 65.8% T4.1 · BOBA 66.8%', bar:98, bright:true, crown:true, radar:98 },
+      { eff:'xhigh', ev:'BENCH', lbl:'65.8% T4.1 (tie) · $14.83*', bar:98, bright:true, crown:false, radar:96,
+        note:'The 65.8% leaderboard run used max, which is reported to lose some tasks to test time limits. Anthropic presents xhigh as the Fable coding setting, and the atlas routes Fable coding there ($14.83 is the xhigh cost). The leaderboard has no Fable 5.2 xhigh run.' },
       { eff:'high', ev:'LOGGED', lbl:'Patches / server', bar:82, bright:false, crown:false, radar:88 },
       { eff:'max', ev:'BENCH', lbl:'62.1% T4.1', bar:78, bright:true, crown:false, radar:82 },
       { eff:'xhigh', ev:'LOGGED', lbl:'61.5% T4.1 · fallback', bar:80, bright:true, crown:false, radar:86 },
@@ -406,10 +437,10 @@ const CORE_CAPS = [
   },
   {
     title: '6. Creative & World Design', sub: 'Designs cohesive worlds, player feel & interconnected systems',
-    detail: 'Fable 5.2 (high/max · LOGGED) holds unmatched human-relation & interconnected player system depth. Opus 5.5 (medium/high · LOGGED) is the steady daily place keeper.',
+    detail: 'Fable 5.2 (medium/high · LOGGED) holds unmatched human-relation & interconnected player system depth. Start at medium; use high when a design needs another level of detail. Opus 5.5 (medium/high · LOGGED) is the steady daily place keeper.',
     cells: [
       { eff:'med', ev:'LOGGED', lbl:'Daily place keeper', bar:86, bright:false, crown:false, radar:90 },
-      { eff:'hi/max', ev:'LOGGED', lbl:'CROWN · max feel', bar:98, bright:true, crown:true, radar:99 },
+      { eff:'med/high', ev:'LOGGED', lbl:'CROWN · player feel', bar:98, bright:true, crown:true, radar:99 },
       { eff:'med', ev:'LOGGED', lbl:'Flat ground only', bar:54, bright:false, crown:false, radar:70 },
       { eff:'med', ev:'LOGGED', lbl:'Literalist method', bar:64, bright:false, crown:false, radar:78 },
       { eff:'xhigh', ev:'LOGGED', lbl:'Continent scale', bar:66, bright:false, crown:false, radar:76 },
@@ -467,6 +498,11 @@ const TRUNC_CAPS = [
 
 let activeFilter = 'ALL';
 let showHaiku = false;
+let selectedCell = null; // [capability index, model index] open in the phone card view
+function pickCell(rIdx, mIdx) {
+  selectedCell = (selectedCell && selectedCell[0] === rIdx && selectedCell[1] === mIdx) ? null : [rIdx, mIdx];
+  renderTables();
+}
 
 function getVisibleModelIndices() {
   return MODELS.map((m, i) => {
@@ -496,7 +532,7 @@ function renderTables() {
       const bodyHtml = `<div class="bar-track"><div class="bar-fill" style="width:${Math.max(8, c.bar)}%;background:${m.color};opacity:${barOp}"></div></div>
            <div class="cell-main" style="${txtStyle}">${c.lbl}</div>`;
       return `<td class="cell ${isHl ? 'crown' : ''}" style="${isHl ? 'border-color:'+m.color+';' : ''}${dimOut}"
-        onclick="inspect('${r.title.replace(/'/g,"\\'")}', '${m.name} (${c.eff} · ${c.ev}): ${c.lbl} — ${r.detail.replace(/'/g,"\\'")}')">
+        onclick="inspect('${r.title.replace(/'/g,"\\'")}', '${m.name} (${c.eff} · ${c.ev}): ${c.lbl} — ${c.note ? '* ' + c.note.replace(/'/g,"\\'") + ' ' : ''}${r.detail.replace(/'/g,"\\'")}')">
         <div class="cell-top">
           <span class="eff-lbl" style="color:${c.crown ? m.color : 'var(--muted)'}">${c.eff}</span>
           <span class="ev-pill ev-${c.ev}">${c.ev}</span>
@@ -512,6 +548,31 @@ function renderTables() {
   }).join('');
 
   document.getElementById('coreTable').innerHTML = headHtml + coreRows;
+
+  // Phone dense view: same cells as the table, stacked as one card per job with the crown first.
+  document.getElementById('coreCards').innerHTML = CORE_CAPS.map((r, rIdx) => {
+    let order = [...visibleIdx].sort((a, b) => (r.cells[b].crown ? 1 : 0) - (r.cells[a].crown ? 1 : 0));
+    if (activeFilter === 'CROWNS') order = order.filter(i => r.cells[i].crown);
+    const rows = order.map(i => {
+      const m = MODELS[i];
+      const c = r.cells[i];
+      const isHl = c.crown || c.hl;
+      const isSel = selectedCell && selectedCell[0] === rIdx && selectedCell[1] === i;
+      const barOp = c.crown ? 1.0 : (c.bright ? 0.9 : 0.30);
+      const txtStyle = c.crown ? `color:${m.color};font-weight:700;` : (c.bright ? 'color:var(--text);' : 'color:var(--muted);font-weight:500;');
+      return `<button class="jc-row ${isHl ? 'crown' : ''} ${isSel ? 'sel' : ''}" aria-expanded="${isSel}" onclick="pickCell(${rIdx},${i})"
+          style="${isHl ? 'box-shadow:inset 3px 0 0 ' + m.color + ';' : ''}">
+          <div class="jc-top">
+            <span class="jc-name" style="color:${m.color}">${m.name}</span>
+            <span class="eff-lbl" style="color:${c.crown ? m.color : 'var(--muted)'}">${c.eff}</span>
+            <span class="ev-pill ev-${c.ev}">${c.ev}</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.max(8, c.bar)}%;background:${m.color};opacity:${barOp}"></div></div>
+          <div class="cell-main" style="${txtStyle}">${c.lbl}</div>
+        </button>` + (isSel ? `<div class="jc-note">${c.note ? '<p>* ' + c.note + '</p>' : ''}${r.detail}</div>` : '');
+    }).join('');
+    return `<article class="job-card"><div class="jc-head"><div class="c-title">${r.title}</div><div class="c-sub">${r.sub}</div></div>${rows}</article>`;
+  }).join('');
 
   const MEDALS = ['🥇 ', '🥈 ', '🥉 '];
   document.getElementById('truncStrips').innerHTML = TRUNC_CAPS.map((t, tIdx) => {
@@ -627,6 +688,11 @@ document.getElementById('haikuToggle').addEventListener('click', function() {
 });
 
 renderTables(); renderRadar();
+// The back link is only for the full-screen page; the embedded copy already sits inside the atlas.
+if (window.parent !== window) document.getElementById('backRow').style.display = 'none';
 function sizeFrame(){parent.postMessage({type:'atlas-chart-height',height:Math.ceil(document.querySelector('main').getBoundingClientRect().height)+4},'*')}
 new ResizeObserver(sizeFrame).observe(document.querySelector('main'));
+// The atlas can miss the first report (cached load, or the chapter was hidden), so also answer when asked.
+window.addEventListener('load', sizeFrame);
+window.addEventListener('message', event => { if (event.data && event.data.type === 'atlas-chart-measure') sizeFrame(); });
 </script></body></html>

@@ -7,8 +7,8 @@ Interactive 6-view comparison deck and standalone vector plates comparing fronti
 
 ## Structure
 
-- `index.html` — Self-contained interactive 6-view presentation (light/dark toggle, `←`/`→` keyboard navigation, seven assignments, coding evidence reveal, illustrated 3D handoff, cost threshold explorer, Gemini effort comparison, routing playbook, and full chart with dated benchmark tables).
-- `original-chart.html` — Restored historical matrix and radar, linked from Full chart.
+- `index.html` — Self-contained interactive 7-view presentation (the last view, "My take", is plan advice labelled as opinion; light/dark toggle, `←`/`→` keyboard navigation, seven assignments, coding evidence reveal, illustrated 3D handoff, cost threshold explorer, Gemini effort comparison, routing playbook, and full chart with dated benchmark tables).
+- `original-chart.html` — Dense matrix and radar, embedded in and linked from Full chart. Below 700px it renders one card per job (crown first, tap a row for its note) and hides the radar. Its cell data must stay in sync with `DATA.reference` in `index.html`.
 - `build_graphics.py` — Pure Python generator for the 4 standalone `1600×900` vector plates (native SVG `<text>`/`<tspan>`, zero `<foreignObject>`).
 - `graphics/01–04*.svg` — Generated vector plates (do not edit by hand; regenerate via `build_graphics.py`).
 
