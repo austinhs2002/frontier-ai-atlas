@@ -13,6 +13,34 @@ window.AI_BENCH_DATA = {
   scoring: "code",
   judges: [],
 
+  // How the keeper, outside contributors, blind role and exclusions were chosen.
+  selection: {
+    keeper: {
+      model: "Claude Opus 5.5",
+      labKey: "a",
+      method: "Ranked vote; models could not vote for themselves",
+      result: "First choice on every eligible ballot (9 of 9). Second place split roughly evenly between GPT-6.2 Astra and Gemini 4 Carbon.",
+      ownBallot: "Opus 5.5 voted Gemini 4 Carbon first, then GPT-6.2 Astra.",
+      text: "Not yet recorded"
+    },
+    outsideVote: {
+      text: "Not yet recorded"
+    },
+    outside: [
+      { model: "DeepSeek V4 (V4 Pro / V4.1-Flash)", status: "Included", priority: "Last in conflict priority", notes: "Pilot 2 investigator; also a contributor" },
+      { model: "Kimi K3.1 Pro", status: "Attempted inclusion; not used", priority: "Second to last in conflict priority", notes: "K3 scored too low; K3.1 had access problems" }
+    ],
+    excluded: [
+      { model: "Claude Haiku 5.5", labKey: "a", status: "Opted out (accepted)", reason: "Not yet recorded", laterRole: "" },
+      { model: "Qwen4-Max", labKey: "", status: "Structurally excluded from contributing and being tested", reason: "Not yet recorded", laterRole: "Chosen as the neutral rewriter because it is never an examinee" },
+      { model: "Mistral Large 4", labKey: "", status: "Structurally excluded", reason: "Not yet recorded", laterRole: "" },
+      { model: "Grok 4.7", labKey: "", status: "Structurally excluded", reason: "Not yet recorded", laterRole: "" }
+    ],
+    neon: {
+      text: "Gemini 4 Neon started as the strictly blind role. It never saw benchmark questions, served as a blind investigator in pilot 2, and is now an examinee. It never grades."
+    }
+  },
+
   // Every model with a part in the project. roles: keeper | contributor | examinee | investigator | rewriter
   roster: [
     { model: "Claude Opus 5.5",   lab: "Anthropic", labKey: "a", effort: "medium", roles: ["keeper", "contributor", "examinee"] },
