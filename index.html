@@ -139,7 +139,7 @@ function terrain(mode){
  let out='<path d="M34 182H526 M34 210H526 M34 238H526" stroke="#34374e" stroke-dasharray="2 6"/>';
  for(const [a,b] of [[point(0,n),point(n,n)],[point(n,n),point(n,0)]])out+=poly([a,b,[b[0],b[1]+17],[a[0],a[1]+17]],'#383953','#777294');
  for(let y=0;y<n;y++)for(let x=0;x<n;x++){const a=point(x,y),b=point(x+1,y),c=point(x,y+1),d=point(x+1,y+1);
- for(const tri of [[a,b,c],[b,d,c]]){const wire=mode==='build'||(mode==='cover'&&x+y<14);const hot=mode==='repair'&&x>6&&x<11&&y>5&&y<10;
+ for(const tri of [[a,b,c],[b,d,c]]){const wire=mode==='build';const hot=mode==='repair'&&x>6&&x<11&&y>5&&y<10;
  const lum=Math.min(84,Math.max(29,51+(tri[1][2]-tri[0][2])*.85+tri[0][2]/6));
  const fill=wire?'#2a2b45':hot?'#e9b296':'hsl('+(mode==='surface'?155:250)+' 24% '+lum+'%)';out+=poly(tri,fill,wire?'#aaa1d9':fill)}}
  return out+'<path d="M57 247h42m-42-3v6m42-6v6" fill="none" stroke="#aca6c4"/><text x="111" y="251" font-family="monospace" font-size="10" fill="#c9c4dc">ISOMETRIC STUDY</text>'}
@@ -278,7 +278,7 @@ function cellBody(c,m,named){return '<span class="celltop">'+(named?'<span class
 function cellNote(j,i){const c=JOBS[j].cells[i];
  if(j===1){
    const model=MODELS[i],run=nativeRuns.find(row=>row[0]===model.name);
-   return '<p><b>'+esc(model.name)+'</b> · I use '+esc(c.eff)+'</p><p>Native Terminal-Bench 4.1 · '+esc(run[2])+' · '+esc(run[1].replace('*',''))+' effort · '+esc(run[3])+' (95% interval).</p>'+esc(JOBS[j].detail);
+   return '<p><b>'+esc(model.name)+'</b> · I use '+esc(c.eff)+'</p><p>Native Terminal-Bench 4.1 · '+esc(run[2])+' · '+esc(run[1].replace('*',''))+' effort · '+esc(run[3])+' (95% interval).</p>'+(c.note?'<p>* '+esc(c.note)+'</p>':'')+esc(JOBS[j].detail);
  }
  return '<p><b>'+routes[j][0]+' · '+MODELS[i].name+'</b> ('+c.eff+', '+EVWORD[c.ev].toLowerCase()+'): '+esc(c.lbl)+'</p>'+(c.note?'<p>* '+esc(c.note)+'</p>':'')+esc(JOBS[j].detail)}
 function cellButton(j,i,named){const c=JOBS[j].cells[i],m=MODELS[i];return '<button class="cellbtn'+(c.crown?' pick':'')+'" data-j="'+j+'" data-i="'+i+'" '+(named?'aria-expanded':'aria-pressed')+'="'+isPicked(j,i)+'"'+(c.crown?' style="border-color:'+LABCOL[m.lab]+'"':'')+'>'+(j===1?codingCell(i,named):cellBody(c,m,named))+'</button>'}
