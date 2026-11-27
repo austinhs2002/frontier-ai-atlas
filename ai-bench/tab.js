@@ -62,6 +62,7 @@
       '<div>' +
         '<h3>Blind role &amp; outside vote</h3>' +
         '<p class="aside">' + esc(S.neon.text) + '</p>' +
+        (S.neon.advisoryBallot ? '<p class="sub"><b>Post-hoc ballot (Neon):</b> ' + esc(S.neon.advisoryBallot) + '</p>' : '') +
         '<p class="sub"><b>Outside contributor vote:</b> ' + esc(S.outsideVote.text) + '</p>' +
         '<h3 class="stagehead">Outside models</h3>' +
         table(['Model', 'Status', 'Priority', 'Notes'], S.outside.map(function (o) {

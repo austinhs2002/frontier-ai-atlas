@@ -37,7 +37,8 @@ window.AI_BENCH_DATA = {
       { model: "Grok 4.7", labKey: "", status: "Structurally excluded", reason: "Not yet recorded", laterRole: "" }
     ],
     neon: {
-      text: "Gemini 4 Neon started as the strictly blind role. It never saw benchmark questions, served as a blind investigator in pilot 2, and is now an examinee. It never grades."
+      text: "Gemini 4 Neon started as the strictly blind role — originally slated to be the test grader, so it was excluded from voting or being voted on. After the project switched to automated code grading, it served as a blind investigator in pilot 2 and is now an examinee. It never grades.",
+      advisoryBallot: "Asked post-hoc (non-voting), Neon ranked Claude Opus 5.5 first and Gemini 4 Carbon second."
     }
   },
 
