@@ -21,7 +21,7 @@ window.AI_BENCH_DATA = {
       method: "Ranked vote; models could not vote for themselves",
       result: "First choice on every eligible ballot (9 of 9). Second place split roughly evenly between GPT-6.2 Astra and Gemini 4 Carbon.",
       ownBallot: "Opus 5.5 voted Gemini 4 Carbon first, then GPT-6.2 Astra.",
-      text: "Not yet recorded"
+      text: "GPT-6.1 Terra, GPT-6.2 Sol, GPT-6.2 Astra, Claude Opus 5.5, Claude Haiku 5.5, Claude Sonnet 5.5, Gemini 4 Carbon, Gemini 4 Argon, Gemini 4 Hydrogen."
     },
     outsideVote: {
       text: "Not yet recorded"
